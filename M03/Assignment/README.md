@@ -5,10 +5,15 @@ For this app, you'll bulid a simple, basic calculator. The difference, is that y
 
 ## Steps
 
-1. Build a `Calculator` class with an empty constructor and a method called `addSymbol` or something to that effect which accepts and returns a string. For now it will just return the accepted string.
-> Don't implement this now, but This method will be called when a symbol button is pressed (number or decimal), it will add that symbol to its internal member tracking the number entered into the calculator and then return a string representation of that number to be displayed
+1. Build a `Calculator` class with an empty constructor and a method called `addSymbol` or something to that effect which
+ accepts and returns a string. For now it will just return the accepted string.
+ 
+> Don't implement this now, but This method will be called when a symbol button is pressed (number or decimal), 
+it will add that symbol to its internal member tracking the number entered into the calculator and then return a 
+string representation of that number to be displayed
 
-2. Write 2 tests, 1 to test if the method works when used once to add a single character when nothing else has been added, and 1 to test when multiple consecutive strings are added.  Run the tests.
+2. Write 2 tests, 1 to test if the method works when used once to add a single character when nothing else
+ has been added, and 1 to test when multiple consecutive strings are added.  Run the tests.
 > The first test should pass, but the second test should fail.
 
 3. Implement that method in your calculator class.
