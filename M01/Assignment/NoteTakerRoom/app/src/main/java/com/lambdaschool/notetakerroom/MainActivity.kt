@@ -15,7 +15,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.lambdaschool.notetakerroom.R
+import com.lambdaschool.notetakerroom.*
 
 import java.util.ArrayList
 

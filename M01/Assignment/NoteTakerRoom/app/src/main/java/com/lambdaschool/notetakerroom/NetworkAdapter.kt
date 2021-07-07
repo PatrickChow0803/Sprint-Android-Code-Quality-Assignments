@@ -1,4 +1,4 @@
-package com.lambdaschool.notetaker
+package com.lambdaschool.notetakerroom
 
 import java.io.BufferedReader
 import java.io.IOException

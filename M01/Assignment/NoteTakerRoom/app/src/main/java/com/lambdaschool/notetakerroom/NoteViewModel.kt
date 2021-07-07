@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.lambdaschool.notetakerroom.Note
 
 import java.util.ArrayList
 
@@ -19,7 +20,7 @@ class NoteViewModel : ViewModel() {
     }
 
     private fun loadList(context: Context) {
-        repo = NoteRepository()
+        repo = NoteRepository(context)
         noteList = repo!!.getNotes(context)
     }
 

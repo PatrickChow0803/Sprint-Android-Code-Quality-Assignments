@@ -1,4 +1,4 @@
-package com.lambdaschool.notetaker
+package com.lambdaschool.notetakerroom
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -16,6 +16,7 @@ import android.preference.PreferenceManager
 import android.preference.RingtonePreference
 import android.text.TextUtils
 import android.view.MenuItem
+import com.lambdaschool.notetaker.AppCompatPreferenceActivity
 import com.lambdaschool.notetakerroom.R
 
 /**

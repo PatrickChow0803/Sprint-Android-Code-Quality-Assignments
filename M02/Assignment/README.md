@@ -7,7 +7,8 @@ For this app, you'll work with the Pokemon API Sprint Challenge application and 
 1. Open the provided Pokemon API solution
 
 2. Refactor the app to use Retrofit and OkHttp for its network calls
-> You'll need to read the docs and rely on Google to do this. Keep last week's architectural lesson in mind when performing this refactor.
+> You'll need to read the docs and rely on Google to do this. 
+Keep last week's architectural lesson in mind when performing this refactor.
 
 3. Add a custom Application class to the code
 
